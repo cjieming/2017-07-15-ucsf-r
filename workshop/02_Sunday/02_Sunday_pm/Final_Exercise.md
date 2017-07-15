@@ -1,6 +1,6 @@
 ---
 layout: page
-title: UA Software Carpetry Workshop, Oct 3-4, 2012
+title: UCSF Software Carpetry Workshop, July 15 and 16, 2017
 subtitle: Final Exercise
 ---
 
