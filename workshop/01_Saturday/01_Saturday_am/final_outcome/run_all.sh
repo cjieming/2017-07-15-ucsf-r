@@ -7,12 +7,12 @@
 ########################################################################
 
 # Run all scripts to generate final report
-bash setupProject.sh
-bash cleanData.sh
-bash combine.sh
+bash 01_setupProject.sh
+bash 02_cleanData.sh
+bash 03_combine.sh
 
 # Install the Rmarkdown library to render the Rmd
 R -e "if(!require(rmarkdown)) install.packages('rmarkdown', repos='http://cran.us.r-project.org')"
 
 # Render the Rmd
-R -e "rmarkdown::render('capstone_analysis.Rmd')"
+R -e "rmarkdown::render('04_capstone_analysis.Rmd')"
